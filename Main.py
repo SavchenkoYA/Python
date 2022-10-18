@@ -9,7 +9,6 @@ word = i  # nput("Enter any word: ")
 print(f"{word} - it's good choice")
 
 # 2
-
 time = int(input("Введите время в секундах: "))
 hours = time // 3600
 minutes = time // 60 - hours * 60
@@ -17,7 +16,6 @@ seconds = time % 60
 print(f"{hours:02}:{minutes:02}:{seconds:02}")
 
 # 3
-
 n = input("Enter an integer: ")
 
 while n < 0
@@ -27,7 +25,6 @@ while n < 0
 print(f"{n} + {n + n} + {n + n + n} = {int(n) + int(n + n) + int(n + n + n)}")
 
 # 4
-
 n = abc(int(input("Введите целое положительное число ")))
 max = n % 10
 while n >= 1:
